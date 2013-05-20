@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Simple.Master.cs" Inherits="MinhPham.Web.BepNhaBan.Simple" %>
+
+<%@ Register Src="Controls/Header.ascx" TagName="Header_New" TagPrefix="uc1" %>
+<%@ Register Src="Services/Navigation.ascx" TagName="Navigation" TagPrefix="Services" %>
+<%@ Register Src="Footer/Index.ascx" TagName="Index" TagPrefix="Footer" %>
+<%@ Register TagPrefix="Partners" TagName="Default" Src="~/Partners/Default.ascx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="/StyleLibrary/RootStyles/Css/template_Simple.css" rel="stylesheet" type="text/css" />
+    <%--<link href="/StyleLibrary/RootStyles/Css/BackToTop.css" rel="stylesheet" type="text/css" />--%>
+    <script type="text/javascript" src="/StyleLibrary/RootStyles/Scripts/jquery-1.7.1.min.js"> </script>
+    <link href="/StyleLibrary/RootStyles/Css/nav.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background: none repeat scroll 0 0 #f2f2f2">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <div id="wrap">
+            <uc1:Header_New ID="Header1" runat="server" />
+            <div class="master-wrapper-page">
+                <div class="master-wrapper-content">
+                    <div class="master-wrapper-main">
+                        <div class="side-2">
+                            <Services:Navigation ID="SerNav1" runat="server" />
+                             <Partners:Default ID="partners1" runat="server" />
+                        </div>
+                    <div class="center-2">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+                <Footer:Index ID="Footers1" runat="server" />
+        </div>
+        </div>
+    </form>
+</body>
+</html>

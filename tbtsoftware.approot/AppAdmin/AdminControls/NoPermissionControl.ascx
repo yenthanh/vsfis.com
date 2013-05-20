@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="NoPermissionControl.ascx.cs" Inherits="MinhPham.Web.BepNhaBan.AppAdmin.AdminControls.NoPermissionControl" %>
+BẠN KHÔNG CÓ QUYỀN VÀO CHỨC NĂNG NÀY, XIN LIÊN HỆ QUẢN TRỊ HỆ THỐNG!

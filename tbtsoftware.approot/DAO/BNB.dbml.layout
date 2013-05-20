@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 28.25, 24" name="BNB">
+  <DataContextMoniker Name="/BNBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="30075740-8103-4a0c-a53a-df4cb7a8eee2" absoluteBounds="3.5, 4.125, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/BNBDataContext/Article" />
+      <nestedChildShapes>
+        <elementListCompartment Id="590e3927-938d-4db4-bfc5-b1fd540770aa" absoluteBounds="3.515, 4.585, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e34f7dfa-7f30-4d5e-9ff4-af143ee4821b" absoluteBounds="15, 11.875, 2, 3.1170068359374987">
+      <DataClassMoniker Name="/BNBDataContext/TermDetail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="78c946ff-418a-41e1-bb84-a9a5e46fd212" absoluteBounds="15.015, 12.335, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3f4210fa-0564-4f08-934e-f14d422146a8" absoluteBounds="9.5, 3.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/BNBDataContext/Branch" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5b5c63ee-86d2-4bb5-9b53-1e7d14307190" absoluteBounds="9.515, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c2b2667e-7d94-4ae1-afa6-e87032488ed5" absoluteBounds="6.5, 8.25, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/BNBDataContext/Brand" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c793db06-0fe4-4cf5-8249-fd0f2898944a" absoluteBounds="6.515, 8.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="218e2228-a9c4-4c85-8988-db47bbf21f31" absoluteBounds="20.75, 9.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BNBDataContext/Business" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0912a71b-70e7-4cf6-a90f-cc36586252fb" absoluteBounds="20.765, 10.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cd347b91-3f52-40f7-a750-995ecd129f9c" absoluteBounds="6.25, 13.75, 2, 2.3478011067708362">
+      <DataClassMoniker Name="/BNBDataContext/CanhBaoKhachHang" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a164df27-1089-41d5-bee7-7bf457f9af05" absoluteBounds="6.265, 14.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="51293896-4b5b-441a-ba77-7956d75c4dd0" absoluteBounds="12, 13.125, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/BNBDataContext/CanhBaoSanPham" />
+      <nestedChildShapes>
+        <elementListCompartment Id="62ead281-41ae-49d9-b5a3-a62d0bd9e322" absoluteBounds="12.015, 13.585, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4863a3ec-19dc-4977-978c-70a9085cc895" absoluteBounds="6.5, 21.375, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/BNBDataContext/Catalog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ebf6479a-ab6f-49d9-96b7-162bc6cd6035" absoluteBounds="6.515, 21.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c628ddf7-d28b-4caa-b0fa-707afa24d9d0" absoluteBounds="6.75, 1.125, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/BNBDataContext/Content" />
+      <nestedChildShapes>
+        <elementListCompartment Id="25e749a6-ced9-4528-af1f-420f6cc7e61d" absoluteBounds="6.765, 1.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="06854441-f409-463a-8d5c-e489878d081e" absoluteBounds="15.25, 2.125, 2, 4.6554182942708326">
+      <DataClassMoniker Name="/BNBDataContext/Employee" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ab5feba4-4889-408d-80ea-c571fa67b8f2" absoluteBounds="15.265, 2.585, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e50d5820-b617-4014-8f22-5ab24dc3a349" absoluteBounds="6.25, 16.875, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/BNBDataContext/HoaDon_Mua" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d48a3d14-fe1f-45dc-9a60-74a44035ef99" absoluteBounds="6.265, 17.335, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f5ea6c21-7994-4f92-bf1e-3616fba4c8bf" absoluteBounds="9, 17, 2, 2.9247054036458309">
+      <DataClassMoniker Name="/BNBDataContext/HoaDon_MuaCT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ff6bd3cf-710d-4fad-acbf-1baa4e898fba" absoluteBounds="9.015, 17.46, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5ffc7aab-3018-4575-80c8-7a0818fcb851" absoluteBounds="12, 7.375, 2, 2.1554996744791657">
+      <DataClassMoniker Name="/BNBDataContext/KhaoSatThiTruong" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f48682e8-abbd-4eb6-9e4a-4469c817eef1" absoluteBounds="12.015, 7.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="51e72eeb-0c9e-4954-bdc4-4f9d4f0c6821" absoluteBounds="0.75, 3, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BNBDataContext/Language" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2016f783-ab1a-4c43-9037-aadbebc38152" absoluteBounds="0.765, 3.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e0a697cf-baa4-45a9-8272-79cd73b1bc1f" absoluteBounds="23.5, 9.25, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/BNBDataContext/Leger" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fe855ccd-e3f0-4aa1-b194-d559a30303ba" absoluteBounds="23.515, 9.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5671ba0e-b449-4f71-aee2-9ced6987d2cd" absoluteBounds="3.5, 1.375, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/BNBDataContext/LocalizedProperty" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e612ea36-c588-44c4-981f-7c08bf7a5338" absoluteBounds="3.515, 1.835, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3364f2b7-8011-4366-904d-41406e2485cf" absoluteBounds="0.75, 7.125, 2, 2.5401025390624987">
+      <DataClassMoniker Name="/BNBDataContext/Menu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="07b4b057-a856-4498-8dba-e9a892fd020c" absoluteBounds="0.765, 7.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1902d8a8-62b3-4e52-8221-89e9cf07f000" absoluteBounds="18, 9.5, 2, 2.5401025390624987">
+      <DataClassMoniker Name="/BNBDataContext/NhanVien_Luong" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9b5fac04-0482-4e14-a258-16223fa58d91" absoluteBounds="18.015, 9.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8258ad63-5e66-4e3a-8db6-a05b8f760e42" absoluteBounds="18, 7, 2, 1.7708968098958318">
+      <DataClassMoniker Name="/BNBDataContext/NhanVien_TamUng" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9428008f-93f8-447f-921c-81c79fba62ad" absoluteBounds="18.015, 7.46, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dcafab0c-bdd1-4b99-9184-48c8d44493a9" absoluteBounds="18, 12.75, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/BNBDataContext/NhanVien_TheoDoiDoanhSo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="85e4b610-8c99-4441-9270-08eddc339f3c" absoluteBounds="18.015, 13.21, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="887e1b9a-ced3-4c11-b9bb-59fe9282c39a" absoluteBounds="3.5, 13.125, 2, 4.6554182942708344">
+      <DataClassMoniker Name="/BNBDataContext/Partner" />
+      <nestedChildShapes>
+        <elementListCompartment Id="60f2d3ef-fb9b-48ba-8d37-2b87a29b791e" absoluteBounds="3.515, 13.585, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9597461f-1759-4770-ae09-a24889a9f60c" absoluteBounds="0.75, 14.875, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/BNBDataContext/PartnerGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9b25c59d-e248-4768-8b60-11f342eee69f" absoluteBounds="0.765, 15.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="90cc431f-9bac-4c43-b05f-c66dbe0a5d12" absoluteBounds="6.25, 10.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/BNBDataContext/PhieuThanhToan_Mua" />
+      <nestedChildShapes>
+        <elementListCompartment Id="33a1658d-9284-4c4e-85d2-87b6ea0cf7e8" absoluteBounds="6.265, 11.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ed8672d3-c881-4787-b6c9-b52b484b0306" absoluteBounds="9.25, 10.75, 2, 5.4246240234374987">
+      <DataClassMoniker Name="/BNBDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7e2a5a0d-9582-474b-a5b4-b654ae1a0bf7" absoluteBounds="9.265, 11.21, 1.9700000000000002, 4.8646240234375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d36d425f-4fb9-4700-85fd-c00d35a9c2fb" absoluteBounds="20.5, 4.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BNBDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="16b37d91-4dc1-48eb-a726-ed02a94ff957" absoluteBounds="20.515, 4.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0626e0e1-4e19-48f4-b849-736daef090c6" absoluteBounds="12, 10.25, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/BNBDataContext/SanPham_HinhAnh" />
+      <nestedChildShapes>
+        <elementListCompartment Id="72e91453-6c6f-45f7-8f02-00be37344227" absoluteBounds="12.015, 10.71, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="32b60bbd-9ddd-4aea-b40e-d6631103bddd" absoluteBounds="6.75, 6.125, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/BNBDataContext/Service" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b7881772-c1fa-4c56-819f-8d0946d8ab56" absoluteBounds="6.765, 6.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3298accd-962b-428f-9d14-a7a306f4700e" absoluteBounds="20.5, 1.25, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/BNBDataContext/TBT_AdminFunction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9e313afc-6c94-49af-89c9-5668014b01b1" absoluteBounds="20.515, 1.71, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8c9b6cd1-e38c-4788-a741-28842be132f8" absoluteBounds="17.75, 1.375, 2, 1.5785953776041668">
+      <DataClassMoniker Name="/BNBDataContext/TBT_AdminFunctionGroup" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ab6fbc89-e12d-4999-a1c1-e4862900eda1" absoluteBounds="17.765, 1.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1a821afc-6f3d-439f-a479-e2cb96fd6dc1" absoluteBounds="17.75, 18.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BNBDataContext/TBT_AdminFunctionName" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d1d4e49b-2dee-4b05-b6ca-41d03f86b08f" absoluteBounds="17.765, 18.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6205ef15-b896-4e68-9a06-7cab5280fb83" absoluteBounds="26, 5.125, 2, 1.9631982421875005">
+      <DataClassMoniker Name="/BNBDataContext/TBT_AdminHistoryLogin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eeb7f25d-2821-48e5-b7eb-c2a2d2167ec2" absoluteBounds="26.015, 5.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a0d3c951-a860-455f-ab9c-c1926b03c01c" absoluteBounds="23.25, 1.5, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/BNBDataContext/TBT_AdminMemberGroupFunction" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a2c27a3c-2033-475c-86f6-9d2227078dda" absoluteBounds="23.265, 1.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8b0552cd-e49c-43a5-85af-38d8ce596f55" absoluteBounds="12.5, 0.75, 2, 1.3862939453125">
+      <DataClassMoniker Name="/BNBDataContext/Team" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49982b28-8558-4f7e-9e5c-5056a3a63f51" absoluteBounds="12.515, 1.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3fbce03e-2390-4675-b4bb-99f5f302d69c" absoluteBounds="12, 20.125, 2, 3.3093082682291666">
+      <DataClassMoniker Name="/BNBDataContext/Temp_HoaDon_MuaCT" />
+      <nestedChildShapes>
+        <elementListCompartment Id="97ecebd9-7286-446e-8d20-1c7cddb416d4" absoluteBounds="12.015, 20.585, 1.9700000000000002, 2.7493082682291665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cdb24270-5d7b-41f4-8767-fb17abc8ca27" absoluteBounds="12.25, 3.25, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/BNBDataContext/Warehouse" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6be0df14-0ae1-4be8-b8a4-b3ed0594c498" absoluteBounds="12.265, 3.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d7136a1c-95b4-46b0-8513-525b7cb3a215" absoluteBounds="23.25, 4.25, 2, 3.8862125651041657">
+      <DataClassMoniker Name="/BNBDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="be5e9124-e0c2-4936-b37a-998bd39a9c60" absoluteBounds="23.265, 4.71, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(10.5 : 5.1362939453125); (10.5 : 6.22035970052083); (14.0729166666667 : 6.22035970052083 : JumpStart); (14.2395833333333 : 6.22035970052083 : JumpEnd); (15.25 : 6.22035970052083)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Branch/Branch_Employee" />
+      <nodes>
+        <classShapeMoniker Id="3f4210fa-0564-4f08-934e-f14d422146a8" />
+        <classShapeMoniker Id="06854441-f409-463a-8d5c-e489878d081e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 18.4623527018229); (8.36979166666667 : 18.4623527018229 : JumpStart); (8.53645833333333 : 18.4623527018229 : JumpEnd); (9 : 18.4623527018229)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/HoaDon_Mua/HoaDon_Mua_HoaDon_MuaCT" />
+      <nodes>
+        <classShapeMoniker Id="e50d5820-b617-4014-8f22-5ab24dc3a349" />
+        <classShapeMoniker Id="f5ea6c21-7994-4f92-bf1e-3616fba4c8bf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.35179768880208); (3.5 : 4.35179768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Language/Language_Article" />
+      <nodes>
+        <classShapeMoniker Id="51e72eeb-0c9e-4954-bdc4-4f9d4f0c6821" />
+        <classShapeMoniker Id="30075740-8103-4a0c-a53a-df4cb7a8eee2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(22.75 : 10.4142976888021); (23.5 : 10.4142976888021)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Business/Business_Leger" />
+      <nodes>
+        <classShapeMoniker Id="218e2228-a9c4-4c85-8988-db47bbf21f31" />
+        <classShapeMoniker Id="e0a697cf-baa4-45a9-8272-79cd73b1bc1f" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 3); (1.75 : 2.1874995); (3.5 : 2.1874995)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Language/Language_LocalizedProperty" />
+      <nodes>
+        <classShapeMoniker Id="51e72eeb-0c9e-4954-bdc4-4f9d4f0c6821" />
+        <classShapeMoniker Id="5671ba0e-b449-4f71-aee2-9ced6987d2cd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.15625 : 6.78041829427083); (17.15625 : 10.65625); (18 : 10.65625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Employee/Employee_NhanVien_Luong" />
+      <nodes>
+        <classShapeMoniker Id="06854441-f409-463a-8d5c-e489878d081e" />
+        <classShapeMoniker Id="1902d8a8-62b3-4e52-8221-89e9cf07f000" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.25 : 4.8982568359375); (19.90625 : 4.8982568359375); (19.90625 : 7)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Employee/Employee_NhanVien_TamUng" />
+      <nodes>
+        <classShapeMoniker Id="06854441-f409-463a-8d5c-e489878d081e" />
+        <classShapeMoniker Id="8258ad63-5e66-4e3a-8db6-a05b8f760e42" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(17.1875025 : 6.78041829427083); (17.1875025 : 15.8453597005208); (18 : 15.8453597005208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Employee/Employee_NhanVien_TheoDoiDoanhSo" />
+      <nodes>
+        <classShapeMoniker Id="06854441-f409-463a-8d5c-e489878d081e" />
+        <classShapeMoniker Id="dcafab0c-bdd1-4b99-9184-48c8d44493a9" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 14.9239005533854); (6.25 : 14.9239005533854)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Partner/Partner_CanhBaoKhachHang" />
+      <nodes>
+        <classShapeMoniker Id="887e1b9a-ced3-4c11-b9bb-59fe9282c39a" />
+        <classShapeMoniker Id="cd347b91-3f52-40f7-a750-995ecd129f9c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 17.3277091471354); (6.25 : 17.3277091471354)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Partner/Partner_HoaDon_Mua" />
+      <nodes>
+        <classShapeMoniker Id="887e1b9a-ced3-4c11-b9bb-59fe9282c39a" />
+        <classShapeMoniker Id="e50d5820-b617-4014-8f22-5ab24dc3a349" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 15.4719962565104); (3.5 : 15.4719962565104)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/PartnerGroup/PartnerGroup_Partner" />
+      <nodes>
+        <classShapeMoniker Id="9597461f-1759-4770-ae09-a24889a9f60c" />
+        <classShapeMoniker Id="887e1b9a-ced3-4c11-b9bb-59fe9282c39a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 13.125); (4.5 : 11.9527498372396); (6.25 : 11.9527498372396)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Partner/Partner_PhieuThanhToan_Mua" />
+      <nodes>
+        <classShapeMoniker Id="887e1b9a-ced3-4c11-b9bb-59fe9282c39a" />
+        <classShapeMoniker Id="90cc431f-9bac-4c43-b05f-c66dbe0a5d12" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 12.7652498372396); (15 : 12.7652498372396)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Product/Product_TermDetail" />
+      <nodes>
+        <classShapeMoniker Id="ed8672d3-c881-4787-b6c9-b52b484b0306" />
+        <classShapeMoniker Id="e34f7dfa-7f30-4d5e-9ff4-af143ee4821b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 14.2989005533854); (12 : 14.2989005533854)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Product/Product_CanhBaoSanPham" />
+      <nodes>
+        <classShapeMoniker Id="ed8672d3-c881-4787-b6c9-b52b484b0306" />
+        <classShapeMoniker Id="51293896-4b5b-441a-ba77-7956d75c4dd0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.125 : 16.1746240234375); (10.125 : 17)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Product/Product_HoaDon_MuaCT" />
+      <nodes>
+        <classShapeMoniker Id="ed8672d3-c881-4787-b6c9-b52b484b0306" />
+        <classShapeMoniker Id="f5ea6c21-7994-4f92-bf1e-3616fba4c8bf" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.25 : 10.75); (10.25 : 8.45274983723958); (12 : 8.45274983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Product/Product_KhaoSatThiTruong" />
+      <nodes>
+        <classShapeMoniker Id="ed8672d3-c881-4787-b6c9-b52b484b0306" />
+        <classShapeMoniker Id="5ffc7aab-3018-4575-80c8-7a0818fcb851" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.40625 : 9.6362939453125); (8.40625 : 13.3902498372396); (9.25 : 13.3902498372396)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Brand/Brand_Product" />
+      <nodes>
+        <classShapeMoniker Id="c2b2667e-7d94-4ae1-afa6-e87032488ed5" />
+        <classShapeMoniker Id="ed8672d3-c881-4787-b6c9-b52b484b0306" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.453125 : 21.375); (8.453125 : 13.5701274186198); (9.25 : 13.5701274186198)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Catalog/Catalog_Product" />
+      <nodes>
+        <classShapeMoniker Id="4863a3ec-19dc-4977-978c-70a9085cc895" />
+        <classShapeMoniker Id="ed8672d3-c881-4787-b6c9-b52b484b0306" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 13.1951249186198); (8.32291666666667 : 13.1951249186198 : JumpStart); (8.48958333333333 : 13.1951249186198 : JumpEnd); (9.25 : 13.1951249186198)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Partner/Partner_Product" />
+      <nodes>
+        <classShapeMoniker Id="887e1b9a-ced3-4c11-b9bb-59fe9282c39a" />
+        <classShapeMoniker Id="ed8672d3-c881-4787-b6c9-b52b484b0306" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 16.5248145117188); (8.36979166666667 : 16.5248145117188 : JumpStart); (8.53645833333333 : 16.5248145117188 : JumpEnd); (10.0416666666667 : 16.5248145117188 : JumpStart); (10.2083333333333 : 16.5248145117188 : JumpEnd); (11.15625 : 16.5248145117188); (11.15625 : 16.1746240234375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Partner/Partner_Product1" />
+      <nodes>
+        <classShapeMoniker Id="887e1b9a-ced3-4c11-b9bb-59fe9282c39a" />
+        <classShapeMoniker Id="ed8672d3-c881-4787-b6c9-b52b484b0306" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.25 : 11.5777498372396); (12 : 11.5777498372396)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Product/Product_SanPham_HinhAnh" />
+      <nodes>
+        <classShapeMoniker Id="ed8672d3-c881-4787-b6c9-b52b484b0306" />
+        <classShapeMoniker Id="0626e0e1-4e19-48f4-b849-736daef090c6" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.75 : 2.16429768880208); (20.5 : 2.16429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/TBT_AdminFunctionGroup/TBT_AdminFunctionGroup_TBT_AdminFunction" />
+      <nodes>
+        <classShapeMoniker Id="8c9b6cd1-e38c-4788-a741-28842be132f8" />
+        <classShapeMoniker Id="3298accd-962b-428f-9d14-a7a306f4700e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(19.75 : 19.1642976888021); (20.25 : 19.1642976888021); (20.25 : 3.39589680989583); (21.5 : 3.39589680989583); (21.5 : 3.02089680989583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/TBT_AdminFunctionName/TBT_AdminFunctionName_TBT_AdminFunction" />
+      <nodes>
+        <classShapeMoniker Id="1a821afc-6f3d-439f-a479-e2cb96fd6dc1" />
+        <classShapeMoniker Id="3298accd-962b-428f-9d14-a7a306f4700e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(22.5 : 2.19314697265625); (23.25 : 2.19314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/TBT_AdminFunction/TBT_AdminFunction_TBT_AdminMemberGroupFunction" />
+      <nodes>
+        <classShapeMoniker Id="3298accd-962b-428f-9d14-a7a306f4700e" />
+        <classShapeMoniker Id="a0d3c951-a860-455f-ab9c-c1926b03c01c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(22.5 : 4.375); (22.875 : 4); (22.875 : 2.57097245898438); (23.25 : 2.57097245898438)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Role/Role_TBT_AdminMemberGroupFunction" />
+      <nodes>
+        <classShapeMoniker Id="d36d425f-4fb9-4700-85fd-c00d35a9c2fb" />
+        <classShapeMoniker Id="a0d3c951-a860-455f-ab9c-c1926b03c01c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.5 : 1.4374995); (16.25 : 1.4374995); (16.25 : 2.125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Team/Team_Employee" />
+      <nodes>
+        <classShapeMoniker Id="8b0552cd-e49c-43a5-85af-38d8ce596f55" />
+        <classShapeMoniker Id="06854441-f409-463a-8d5c-e489878d081e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.1875025 : 16.1746240234375); (11.1875025 : 21.7796541341146); (12 : 21.7796541341146)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Product/Product_Temp_HoaDon_MuaCT" />
+      <nodes>
+        <classShapeMoniker Id="ed8672d3-c881-4787-b6c9-b52b484b0306" />
+        <classShapeMoniker Id="3fbce03e-2390-4675-b4bb-99f5f302d69c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.15625 : 5.59780110677083); (14.15625 : 12.5853722558594); (15 : 12.5853722558594)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Warehouse/Warehouse_TermDetail" />
+      <nodes>
+        <classShapeMoniker Id="cdb24270-5d7b-41f4-8767-fb17abc8ca27" />
+        <classShapeMoniker Id="e34f7dfa-7f30-4d5e-9ff4-af143ee4821b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(11.5 : 4.44314697265625); (12.25 : 4.44314697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Branch/Branch_Warehouse" />
+      <nodes>
+        <classShapeMoniker Id="3f4210fa-0564-4f08-934e-f14d422146a8" />
+        <classShapeMoniker Id="cdb24270-5d7b-41f4-8767-fb17abc8ca27" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(25.25 : 6.10659912109375); (26 : 6.10659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/User/User_TBT_AdminHistoryLogin" />
+      <nodes>
+        <classShapeMoniker Id="d7136a1c-95b4-46b0-8513-525b7cb3a215" />
+        <classShapeMoniker Id="6205ef15-b896-4e68-9a06-7cab5280fb83" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(22.5 : 5.19555018880208); (23.25 : 5.19555018880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BNBDataContext/Role/Role_User" />
+      <nodes>
+        <classShapeMoniker Id="d36d425f-4fb9-4700-85fd-c00d35a9c2fb" />
+        <classShapeMoniker Id="d7136a1c-95b4-46b0-8513-525b7cb3a215" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

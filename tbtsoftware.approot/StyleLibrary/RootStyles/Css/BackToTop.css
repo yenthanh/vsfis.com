@@ -1,0 +1,10 @@
+#bttop {
+    background: url(../Images/BackToTop/top.png) no-repeat 0 0;
+    bottom: 40px;
+    cursor: pointer;
+    height: 60px;
+    position: fixed;
+    right: 10px;
+    text-indent: -99999px;
+    width: 60px;
+}

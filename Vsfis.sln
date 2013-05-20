@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tbtsoftware.thirtparty.dll", "tbtsoftware.thirtparty.dll", "{17A83ED2-BB07-4BE3-9ED7-13E2D21728F6}"
+	ProjectSection(SolutionItems) = preProject
+		tbtsoftware.thirtparty.dll\AjaxControlToolkit.dll = tbtsoftware.thirtparty.dll\AjaxControlToolkit.dll
+		tbtsoftware.thirtparty.dll\ASPnetPagerV2_8.dll = tbtsoftware.thirtparty.dll\ASPnetPagerV2_8.dll
+		tbtsoftware.thirtparty.dll\FredCK.FCKeditorV2.dll = tbtsoftware.thirtparty.dll\FredCK.FCKeditorV2.dll
+		tbtsoftware.thirtparty.dll\Interop.ShockwaveFlashObjects.dll = tbtsoftware.thirtparty.dll\Interop.ShockwaveFlashObjects.dll
+		..\Microsoft.System\bin\Debug\Microsoft.System.dll = ..\Microsoft.System\bin\Debug\Microsoft.System.dll
+		tbtsoftware.thirtparty.dll\tbtsoftware.core.dll = tbtsoftware.thirtparty.dll\tbtsoftware.core.dll
+		tbtsoftware.thirtparty.dll\tbtsoftware.system.dll = tbtsoftware.thirtparty.dll\tbtsoftware.system.dll
+		tbtsoftware.thirtparty.dll\UrlRewritingNet.UrlRewriter.dll = tbtsoftware.thirtparty.dll\UrlRewritingNet.UrlRewriter.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhPham.Web.BepNhaBan", "tbtsoftware.approot\MinhPham.Web.BepNhaBan.csproj", "{C897052A-B9D3-4ACC-BB1F-07E0BD76C481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhPham.Core.Common", "Microsoft.System\MinhPham.Core.Common.csproj", "{E1563CF8-4507-4A9B-BB80-D56F41CE9F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhPham.Core.Model", "BNB.Core.Model\MinhPham.Core.Model.csproj", "{2074728A-00E9-45A9-93AD-4572E4A40536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhPham.Core.Common.UnitTest", "BNB.Core.Common.UnitTest\MinhPham.Core.Common.UnitTest.csproj", "{CC97E616-62B9-4B08-80FA-154B8CEED0C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhPham.DataAnnotations", "MinhPham.DataAnnotations\MinhPham.DataAnnotations.csproj", "{522AF40E-BF48-4BD4-BC08-F4C1748B429F}"
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C897052A-B9D3-4ACC-BB1F-07E0BD76C481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C897052A-B9D3-4ACC-BB1F-07E0BD76C481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C897052A-B9D3-4ACC-BB1F-07E0BD76C481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C897052A-B9D3-4ACC-BB1F-07E0BD76C481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1563CF8-4507-4A9B-BB80-D56F41CE9F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1563CF8-4507-4A9B-BB80-D56F41CE9F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1563CF8-4507-4A9B-BB80-D56F41CE9F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1563CF8-4507-4A9B-BB80-D56F41CE9F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2074728A-00E9-45A9-93AD-4572E4A40536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2074728A-00E9-45A9-93AD-4572E4A40536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2074728A-00E9-45A9-93AD-4572E4A40536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2074728A-00E9-45A9-93AD-4572E4A40536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC97E616-62B9-4B08-80FA-154B8CEED0C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC97E616-62B9-4B08-80FA-154B8CEED0C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC97E616-62B9-4B08-80FA-154B8CEED0C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC97E616-62B9-4B08-80FA-154B8CEED0C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{522AF40E-BF48-4BD4-BC08-F4C1748B429F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522AF40E-BF48-4BD4-BC08-F4C1748B429F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522AF40E-BF48-4BD4-BC08-F4C1748B429F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522AF40E-BF48-4BD4-BC08-F4C1748B429F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,427 @@
+/*Reset CSS*/
+html {
+    height: 100%!important;
+    height: 100%!important;
+    margin-bottom: 1px;
+}
+
+:link, :visited { text-decoration: none; }
+
+html, body, div,
+ul, ol, li, dl, dt, dd,
+form, fieldset, input, textarea,
+h1, h2, h3, h4, h5, h6, pre, code, p, blockquote, hr,
+th, td {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { font-weight: normal }
+
+table { border-spacing: 0; }
+
+fieldset, img, abbr, acronym { border: 0; }
+
+address { font-style: normal; }
+
+ol, ul { list-style: none; }
+
+caption, th { text-align: left; }
+
+q:before, q:after { content: ''; }
+
+a {
+    color: #005FA3;
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+hr {
+    background-color: #000;
+    border: 0;
+    color: #000;
+    height: 1px;
+}
+
+a img, :link img, :visited img { border: none; }
+
+* {
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+body {
+    background-color: #fff /*#ECECEC;*/
+/*background-image: url("images/bg.jpg");*/
+                      background-position:left top;
+    background-repeat: repeat-x;
+    font-family: Tahoma;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+    padding: 0px 5px 0px 5px;
+}
+
+.ui-widget-content {
+    background: #ffffff url(ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+    border: none;
+    color: #444444;
+}
+
+.left { float: left; }
+
+.right { float: right; }
+
+.PageHeader {
+    /*background-color:#249fe5;
+	background-image:url(/images/bg_header.gif);*/
+    background-position: bottom;
+    background-repeat: repeat-x;
+    float: left;
+    height: 70px;
+}
+
+.LogoHeader { padding: 10px 0px 0px 0px; }
+
+.LogoHeader .logoimage, .LogoHeader .linkroot { float: left; }
+
+.LogoHeader .linkroot {
+    border-left: solid 3px #005FA3;
+    margin-left: 5px;
+    margin-top: 15px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+.content { padding-top: 5px; }
+
+.subhead { font-weight: bold; }
+
+#cpanel .icon {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 120px;
+}
+
+.SystemMenu {
+    float: right;
+    margin-top: 12px;
+}
+
+.subhead, .subhead:link, .subhead:hover, .subhead:visited {
+    color: #a52a2a;
+    font-weight: bold;
+}
+
+.LogoHeader {
+    color: #005FA3;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.SiteName { font-size: 24px; }
+
+.radiobutton { margin: 3px 5px; }
+
+#AjaxLoading {
+    background: none repeat scroll 0 0 #FCF5AA;
+    display: none;
+    padding: 5px 10px;
+    text-align: center;
+    width: 180px;
+    z-index: 2147483647;
+}
+
+.LetterSort {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.Heading {
+    background: url("/images/ui-bg_highlight-soft_50_dddddd_1x100.png") repeat-x scroll 50% 50% #DDDDDD;
+    border: 1px solid #DDDDDD;
+    color: #666666;
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 100%;
+}
+
+.Heading div { float: left; }
+
+.Heading .check { padding: 7px 30px; }
+
+.Heading .img { width: 130px; }
+
+.Heading .desc { width: 500px; }
+
+.Heading .pri {
+    float: right;
+    width: 125px;
+}
+
+.Heading .action {
+    float: right;
+    width: 135px;
+}
+
+#output .contentwrap {
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #D6D6D6;
+    float: left;
+    overflow: hidden;
+    padding: 7px 0;
+    width: 100%;
+}
+
+#output .contentwrap:hover { background-color: #ffd; }
+
+#output .contentwrap div { float: left; }
+
+#output .check { padding: 7px 30px; }
+
+#output .img {
+    padding: 2px;
+    width: 120px;
+}
+
+#output .desc {
+    padding: 2px;
+    width: 500px;
+}
+
+#output .contentwrap div.pri {
+    float: right;
+    padding: 2px;
+    width: 120px;
+}
+
+#output .contentwrap div.action {
+    float: right;
+    width: 120px;
+}
+
+.clear { clear: both; }
+
+.contentimage, contentupload { overflow: hidden; }
+
+.progressWrapper {
+    overflow: hidden;
+    width: 357px;
+}
+
+.progressContainer {
+    background-color: #F7F7F7;
+    border: solid 1px #E8E8E8;
+    margin: 5px;
+    overflow: hidden;
+    padding: 4px;
+}
+/* Message */
+
+.message {
+    background-color: #FFFFCC;
+    border: solid 1px #FFDD99;
+    margin: 1em 0;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+/* Error */
+
+.red {
+    background-color: #FFEBEB;
+    border: solid 1px #B50000;
+}
+
+/* Current */
+
+.green {
+    background-color: #EBFFEB;
+    border: solid 1px #DDF0DD;
+}
+
+/* Complete */
+
+.blue {
+    background-color: #F0F5FF;
+    border: solid 1px #CEE2F2;
+}
+
+.progressName {
+    color: #555;
+    font-size: 8pt;
+    font-weight: 700;
+    height: 14px;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    width: 323px;
+}
+
+.progressBarInProgress,
+.progressBarComplete,
+.progressBarError {
+    background-color: blue;
+    font-size: 0;
+    height: 2px;
+    margin-top: 2px;
+    width: 0%;
+}
+
+.progressBarComplete {
+    background-color: green;
+    visibility: hidden;
+    width: 100%;
+}
+
+.progressBarError {
+    background-color: red;
+    visibility: hidden;
+    width: 100%;
+}
+
+.progressBarStatus {
+    font-family: tahoma;
+    font-size: 10px;
+    margin-top: 2px;
+    text-align: left;
+    white-space: nowrap;
+    width: 337px;
+}
+
+a.progressCancel {
+    background-image: url(../images/cancelbutton.gif);
+    background-position: -14px 0px;
+    background-repeat: no-repeat;
+    display: block;
+    float: right;
+    font-size: 0;
+    height: 14px;
+    width: 14px;
+}
+
+a.progressCancel:hover { background-position: 0px 0px; }
+
+#divMovieContainer {
+    float: left;
+    margin: 5px;
+}
+
+.contentupload { height: 60px; }
+
+.SearchForm {
+    float: right;
+    margin: 5px 10px 10px 0px;
+}
+
+.sysMenu {
+    float: right;
+    height: 24px;
+}
+
+.sysMenu li {
+    float: left;
+    padding: 0 4px;
+}
+
+.sysMenu li.last { padding: 0 0 0 4px; }
+
+.loginMenu {
+    clear: both;
+    margin-top: 5px;
+    text-align: right;
+}
+
+.map_huongdan {
+    background: #C3D2E5;
+    border: 1px solid #84A7DB;
+    color: #0055BB;
+    font-size: 12px;
+    margin: 0 10px;
+    padding: 10px;
+}
+
+.map_huongdan strong { font-size: 12px; }
+
+.tooltip {
+    background: url("help.png") no-repeat scroll 0 0 transparent;
+    color: #000000;
+    display: inline-block;
+    height: 16px;
+    position: relative;
+    text-shadow: none;
+    top: 3px;
+    width: 16px;
+}
+
+.tooltip .tooltipContent {
+    background: none repeat scroll 0 0 #FFF9D3;
+    border: 1px solid #E2CE49;
+    border-radius: 5px 5px 5px 5px;
+    display: none;
+    font-size: 12px;
+    left: 16px;
+    padding: 10px;
+    position: absolute;
+    width: 275px;
+    z-index: 2;
+}
+
+.tooltip:hover .tooltipContent { display: block; }
+
+.tooltip .tooltipContent p.tooltiptitle {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0 !important;
+}
+
+.tooltip .tooltipContent p {
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.helpTipCorners { border-radius: 5px 5px 5px 5px; }
+
+.Breadcrumb ul, .Breadcrumb li {
+    height: 24px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+
+.Block ul li { margin-top: 5px; }
+
+.Breadcrumb ul li {
+    background: url("/images/breadcrumb_grid.png") no-repeat scroll right -35px #FFFFFF;
+    float: left;
+    margin: 0;
+}
+
+.Breadcrumb ul li.Last { background: url("/images/breadcrumb_grid.png") no-repeat scroll right -35px #F4F5F7 }
+
+.Breadcrumb ul li.SecondLast { background: url("/images/breadcrumb_grid.png") no-repeat scroll right -4px transparent; }
+
+.Breadcrumb ul li a, .Breadcrumb ul li span {
+    color: #005FA3;
+    display: block;
+    font-weight: normal;
+    margin-right: 10px;
+    padding: 5px 10px 6px;
+    text-decoration: none;
+}
+
+.Breadcrumb ul li a:hover { text-decoration: underline; }
+
+.Breadcrumb li.Last a, .Breadcrumb li.Last span {
+    color: #444444;
+    text-decoration: none;
+}
+
+.Breadcrumb ul li span {
+    color: #444444;
+    text-decoration: none;
+}

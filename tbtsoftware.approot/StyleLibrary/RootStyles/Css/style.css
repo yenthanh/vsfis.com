@@ -1,0 +1,27 @@
+caption, th, td {
+    color: Blue;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: left;
+}
+
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+
+blockquote, q { quotes: "" ""; }
+/* HTML5 tags */
+
+header, section, footer, aside, nav, article, figure { display: block; }
+
+a, a:visited { text-decoration: none; }
+
+a:hover, a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+.theme-default #slider {
+    height: 246px; /* Make sure your images are the same size */
+    width: 618px; /* Make sure your images are the same size */
+}
+
+.clear { clear: both; }

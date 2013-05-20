@@ -1,0 +1,106 @@
+/*
+Skin Name: Pascal Theme
+Skin URI: http://nivo.dev7studios.com
+Skin Type: fixed
+Image Width: 630
+Image Height: 235
+Description: A nice, light skin for the Nivo Slider.
+Version: 1.0
+Author: Gilbert Pellegrom & Pascal Gartner
+Author URI: http://dev7studios.com
+*/
+
+.theme-pascal.slider-wrapper {
+    background: url(slider.png) no-repeat;
+    height: 299px;
+    margin: 0 auto;
+    padding-top: 17px;
+    position: relative;
+    width: 668px;
+}
+
+.theme-pascal .nivoSlider {
+    background: url(loading.gif) no-repeat 50% 50%;
+    height: 235px;
+    margin-left: 19px;
+    position: relative;
+    width: 630px;
+}
+
+.theme-pascal .nivoSlider img {
+    display: none;
+    height: 235px; /* Make sure your images are the same size */
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 630px; /* Make sure your images are the same size */
+}
+
+.theme-pascal .nivoSlider a {
+    border: 0;
+    display: block;
+}
+
+.theme-pascal .nivo-controlNav {
+    background: url(controlnav.png) no-repeat;
+    bottom: -42px;
+    height: 40px;
+    left: 200px; /* Tweak this to center bullets */
+    padding: 8px 0 0 82px;
+    position: absolute;
+    width: 251px;
+    z-index: 20;
+}
+
+.theme-pascal .nivo-controlNav a {
+    background: url(bullets.png) no-repeat;
+    border: 0;
+    display: block;
+    float: left;
+    height: 22px;
+    margin-right: 3px;
+    text-indent: -9999px;
+    width: 22px;
+}
+
+.theme-pascal .nivo-controlNav a.active { background-position: 0 -22px; }
+
+.theme-pascal .nivo-directionNav a { display: none; }
+
+.theme-pascal .nivo-caption {
+    background: #fff;
+    bottom: 40%;
+    color: #4c4b4b;
+    font-family: arial, serif;
+    left: auto;
+    max-width: 630px;
+    overflow: hidden;
+    right: 0px;
+    text-shadow: none;
+    width: auto;
+}
+
+.theme-pascal .nivo-caption p {
+    color: #333;
+    font-size: 27px;
+    font-weight: bold;
+    padding: 5px 15px;
+    text-transform: uppercase;
+}
+
+.theme-pascal .nivo-caption a {
+    color: #333;
+    font-size: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.theme-pascal .ribbon {
+    background: url(ribbon.png) no-repeat;
+    height: 111px;
+    left: -8px;
+    position: absolute;
+    top: -8px;
+    width: 111px;
+    z-index: 300;
+}

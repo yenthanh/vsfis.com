@@ -1,0 +1,102 @@
+/*
+Skin Name: Orman Theme
+Skin URI: http://nivo.dev7studios.com
+Skin Type: fixed
+Image Width: 568
+Image Height: 268
+Description: A light and green skin for the Nivo Slider.
+Version: 1.0
+Author: Gilbert Pellegrom & Orman Clark
+Author URI: http://dev7studios.com
+*/
+
+.theme-orman.slider-wrapper {
+    background: url(slider.png) no-repeat;
+    height: 337px;
+    margin: 0 auto;
+    padding-top: 18px;
+    position: relative;
+    width: 722px;
+}
+
+.theme-orman .nivoSlider {
+    background: url(loading.gif) no-repeat 50% 50%;
+    height: 268px;
+    margin-left: 77px;
+    position: relative;
+    width: 568px;
+}
+
+.theme-orman .nivoSlider img {
+    display: none;
+    height: 268px; /* Make sure your images are the same size */
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 568px; /* Make sure your images are the same size */
+}
+
+.theme-orman .nivoSlider a {
+    border: 0;
+    display: block;
+}
+
+.theme-orman .nivo-controlNav {
+    bottom: -60px;
+    left: 50%;
+    margin-left: -30px; /* Tweak this to center bullets */
+    position: absolute;
+}
+
+.theme-orman .nivo-controlNav a {
+    background: url(bullets.png) no-repeat;
+    border: 0;
+    display: block;
+    float: left;
+    height: 10px;
+    margin-right: 7px;
+    text-indent: -9999px;
+    width: 10px;
+}
+
+.theme-orman .nivo-controlNav a.active { background-position: 0 -10px; }
+
+.theme-orman .nivo-directionNav a {
+    background: url(arrows.png) no-repeat 0% 50%;
+    border: 0;
+    display: block;
+    height: 200px;
+    text-indent: -9999px;
+    top: 40px;
+    width: 25px;
+}
+
+.theme-orman a.nivo-nextNav {
+    background-position: 100% 50%;
+    padding-right: 20px;
+    right: -40px;
+}
+
+.theme-orman a.nivo-prevNav {
+    left: -40px;
+    padding-left: 20px;
+}
+
+.theme-orman .nivo-caption { font-family: Helvetica, Arial, sans-serif; }
+
+.theme-orman .nivo-caption a {
+    border-bottom: 1px dotted #fff;
+    color: #fff;
+}
+
+.theme-orman .nivo-caption a:hover { color: #fff; }
+
+.theme-orman .ribbon {
+    background: url(ribbon.png) no-repeat;
+    height: 111px;
+    left: 56px;
+    position: absolute;
+    top: -3px;
+    width: 111px;
+    z-index: 300;
+}

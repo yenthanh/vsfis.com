@@ -1,0 +1,108 @@
+#footerSlideContainer {
+    bottom: 0;
+    position: fixed;
+    right: 0;
+    width: 300px;
+    z-index: 1000;
+}
+
+#footerSlideButton {
+    background: url(../n2one/hotro.png) top left no-repeat transparent;
+    border: none;
+    cursor: pointer;
+    height: 51px;
+    position: absolute;
+    right: 0px;
+    top: -46px;
+    width: 194px;
+}
+
+#footerSlideContent {
+    /*background: #EFEFEF;*/
+    background: #FFF;
+    border: 5px solid #006795;
+    border-bottom: none;
+    border-right: none;
+    bottom: -5px;
+    color: #CCCCCC;
+    font-family: DejaVuSansBook, Sans-Serif;
+    font-size: 0.8em;
+    height: 0px;
+    position: relative;
+    width: 100%;
+}
+
+#footerSlideContent h3 {
+    color: #9AC941;
+    font-size: 36px;
+    margin: 10px 0 10px 0;
+}
+
+#footerSlideContent ul {
+    color: #EE8D40;
+    line-height: 2em;
+    list-style-type: none;
+}
+
+#footerSlideText {
+    color: #065f92;
+    font-size: 11px;
+    padding: 10px 5px 5px 5px;
+    text-shadow: 1px 1px #FFFFFF;
+}
+
+#footerSlideText .note {
+    color: red;
+    left: 20px;
+    position: relative;
+}
+
+#footerSlideText .line {
+    background: url(../n2one/line.gif) repeat-x top center;
+    height: 2px;
+    margin: auto;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    width: 95%;
+}
+
+#footerSlideText .titles {
+    color: #006795;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#footerSlideText ul {
+    list-style: none;
+    margin: 0px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 0px;
+    width: 244px;
+}
+
+#footerSlideText ul li {
+    background: none;
+    color: #006795;
+    font-size: 12px;
+    font-weight: bold;
+    list-style: none;
+    margin-top: 8px;
+    padding: 0px;
+}
+
+#footerSlideText ul li .left {
+    display: inline-block;
+    width: 165px;
+}
+
+#footerSlideText ul li .right {
+    display: inline-block;
+    width: auto;
+}
+
+.hotline {
+    color: #df2a2b;
+    font-size: 13px;
+}

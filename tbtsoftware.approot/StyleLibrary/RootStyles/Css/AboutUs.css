@@ -1,0 +1,21 @@
+.ve-chung-toi .title {
+    background-image: url("../Images/AboutUs/bg_title.gif");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    color: #2B2B2B;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+    height: 21px;
+    margin-bottom: 15px;
+    padding-top: 6px;
+}
+
+.title span {
+    background-color: #FFFFFF;
+    background-image: url("../Images/AboutUs/logo_1414.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 19px;
+    padding-right: 14px;
+}

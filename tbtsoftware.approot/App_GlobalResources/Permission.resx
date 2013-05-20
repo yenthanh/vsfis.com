@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="strSanPham_Xem" xml:space="preserve">
+    <value>SanPham_Xem</value>
+  </data>
+  <data name="strSanPham_Them" xml:space="preserve">
+    <value>SanPham_Them</value>
+  </data>
+  <data name="strSanPham_Sua" xml:space="preserve">
+    <value>SanPham_Sua</value>
+  </data>
+  <data name="strSanPham_Xoa" xml:space="preserve">
+    <value>SanPham_Xoa</value>
+  </data>
+  <data name="strDanhMuc_Them" xml:space="preserve">
+    <value>DanhMuc_Them</value>
+  </data>
+  <data name="strDanhMuc_Sua" xml:space="preserve">
+    <value>DanhMuc_Sua</value>
+  </data>
+  <data name="strDanhMuc_Xoa" xml:space="preserve">
+    <value>DanhMuc_Xoa</value>
+  </data>
+  <data name="strDanhMuc_Xem" xml:space="preserve">
+    <value>DanhMuc_Xem</value>
+  </data>
+  <data name="strNhomThanhVien_Them" xml:space="preserve">
+    <value>NhomThanhVien_Them</value>
+  </data>
+  <data name="strNhomThanhVien_Sua" xml:space="preserve">
+    <value>NhomThanhVien_Sua</value>
+  </data>
+  <data name="strNhomThanhVien_Xoa" xml:space="preserve">
+    <value>NhomThanhVien_Xoa</value>
+  </data>
+  <data name="strNhomThanhVien_Xem" xml:space="preserve">
+    <value>NhomThanhVien_Xem</value>
+  </data>
+  <data name="strThanhVien_Them" xml:space="preserve">
+    <value>ThanhVien_Them</value>
+  </data>
+  <data name="strThanhVien_Sua" xml:space="preserve">
+    <value>ThanhVien_Sua</value>
+  </data>
+  <data name="strThanhVien_Xoa" xml:space="preserve">
+    <value>ThanhVien_Xoa</value>
+  </data>
+  <data name="strThanhVien_Xem" xml:space="preserve">
+    <value>ThanhVien_Xem</value>
+  </data>
+  <data name="strNhomChucNang_Them" xml:space="preserve">
+    <value>NhomChucNang_Them</value>
+  </data>
+  <data name="strNhomChucNang_Sua" xml:space="preserve">
+    <value>NhomChucNang_Sua</value>
+  </data>
+  <data name="strNhomChucNang_Xoa" xml:space="preserve">
+    <value>NhomChucNang_Xoa</value>
+  </data>
+  <data name="strNhomChucNang_Xem" xml:space="preserve">
+    <value>NhomChucNang_Xem</value>
+  </data>
+  <data name="strSanPham_CanhBao" xml:space="preserve">
+    <value>SanPham_CanhBao</value>
+  </data>
+  <data name="strSanPham_DoTim" xml:space="preserve">
+    <value>SanPham_DoTim</value>
+  </data>
+  <data name="strSanPham_ThietLapGia" xml:space="preserve">
+    <value>SanPham_ThietLapGia</value>
+  </data>
+  <data name="strSanPham_TimKiem" xml:space="preserve">
+    <value>SanPham_TimKiem</value>
+  </data>
+  <data name="strTinhNang_Them" xml:space="preserve">
+    <value>TinhNang_Them</value>
+  </data>
+  <data name="strTinhNang_Sua" xml:space="preserve">
+    <value>TinhNang_Sua</value>
+  </data>
+  <data name="strTinhNang_Xoa" xml:space="preserve">
+    <value>TinhNang_Xoa</value>
+  </data>
+  <data name="strTinhNang_Xem" xml:space="preserve">
+    <value>TinhNang_Xem</value>
+  </data>
+  <data name="strTinhNangChucNang_Them" xml:space="preserve">
+    <value>TinhNangChucNang_Them</value>
+  </data>
+  <data name="strgTinhNangChucNang_Sua" xml:space="preserve">
+    <value>TinhNangChucNang_Sua</value>
+  </data>
+  <data name="strTinhNangChucNang_Xoa" xml:space="preserve">
+    <value>TinhNangChucNang_Xoa</value>
+  </data>
+  <data name="strTinhNangChucNang_Xem" xml:space="preserve">
+    <value>TinhNangChucNang_Xem</value>
+  </data>
+  <data name="KhachHang_Them" xml:space="preserve">
+    <value>KhachHang_Them</value>
+  </data>
+  <data name="strKhachHang_Sua" xml:space="preserve">
+    <value>KhachHang_Sua</value>
+  </data>
+  <data name="strKhachHang_Xoa" xml:space="preserve">
+    <value>KhachHang_Xoa</value>
+  </data>
+  <data name="strKhachHang_Xem" xml:space="preserve">
+    <value>KhachHang_Xem</value>
+  </data>
+  <data name="strKhachHang_Them" xml:space="preserve">
+    <value>KhachHang_Them</value>
+  </data>
+  <data name="strKhachHang_TimKiem" xml:space="preserve">
+    <value>KhachHang_TimKiem</value>
+  </data>
+  <data name="strKhachHang_DoTim" xml:space="preserve">
+    <value>KhachHang_DoTim</value>
+  </data>
+  <data name="strKhachHang_CanhBao" xml:space="preserve">
+    <value>KhachHang_CanhBao</value>
+  </data>
+  <data name="strNhomNhanVien_Them" xml:space="preserve">
+    <value>NhomNhanVien_Them</value>
+  </data>
+  <data name="strNhomNhanVien_Sua" xml:space="preserve">
+    <value>NhomNhanVien_Sua</value>
+  </data>
+  <data name="strNhomNhanVien_Xoa" xml:space="preserve">
+    <value>NhomNhanVien_Xoa</value>
+  </data>
+  <data name="strNhomNhanVien_Xem" xml:space="preserve">
+    <value>NhomNhanVien_Xem</value>
+  </data>
+  <data name="strNhanVien_Them" xml:space="preserve">
+    <value>NhanVien_Them</value>
+  </data>
+  <data name="strNhanVien_Sua" xml:space="preserve">
+    <value>NhanVien_Sua</value>
+  </data>
+  <data name="strNhanVien_Xoa" xml:space="preserve">
+    <value>NhanVien_Xoa</value>
+  </data>
+  <data name="strNhanVien_Xem" xml:space="preserve">
+    <value>NhanVien_Xem</value>
+  </data>
+  <data name="strChiNhanh_Them" xml:space="preserve">
+    <value>ChiNhanh_Them</value>
+  </data>
+  <data name="strChiNhanh_Sua" xml:space="preserve">
+    <value>ChiNhanh_Sua</value>
+  </data>
+  <data name="strChiNhanh_Xoa" xml:space="preserve">
+    <value>ChiNhanh_Xoa</value>
+  </data>
+  <data name="strChiNhanh_Xem" xml:space="preserve">
+    <value>ChiNhanh_Xem</value>
+  </data>
+  <data name="strWarehouse_Them" xml:space="preserve">
+    <value>Warehouse_Them</value>
+  </data>
+  <data name="strWarehouse_Sua" xml:space="preserve">
+    <value>Warehouse_Sua</value>
+  </data>
+  <data name="strWarehouse_Xoa" xml:space="preserve">
+    <value>Warehouse_Xoa</value>
+  </data>
+  <data name="strWarehouse_Xem" xml:space="preserve">
+    <value>Warehouse_Xem</value>
+  </data>
+  <data name="strNCC_Them" xml:space="preserve">
+    <value>NCC_Them</value>
+  </data>
+  <data name="strNCC_Sua" xml:space="preserve">
+    <value>NCC_Sua</value>
+  </data>
+  <data name="strNCC_Xoa" xml:space="preserve">
+    <value>NCC_Xoa</value>
+  </data>
+  <data name="strNCC_Xem" xml:space="preserve">
+    <value>NCC_Xem</value>
+  </data>
+  <data name="strPhieuNhapKho_Them" xml:space="preserve">
+    <value>PhieuNhapKho_Them</value>
+  </data>
+  <data name="strPhieuNhapKho_Sua" xml:space="preserve">
+    <value>PhieuNhapKho_Sua</value>
+  </data>
+  <data name="strPhieuNhapKho_Xoa" xml:space="preserve">
+    <value>PhieuNhapKho_Xoa</value>
+  </data>
+  <data name="strPhieuNhapKho_Xem" xml:space="preserve">
+    <value>PhieuNhapKho_Xem</value>
+  </data>
+  <data name="strTraTienNCC_Them" xml:space="preserve">
+    <value>TraTienNCC_Them</value>
+  </data>
+  <data name="strTraTienNCC_Sua" xml:space="preserve">
+    <value>TraTienNCC_Sua</value>
+  </data>
+  <data name="strTraTienNCC_Xoa" xml:space="preserve">
+    <value>TraTienNCC_Xoa</value>
+  </data>
+  <data name="strTraTienNCC_Xem" xml:space="preserve">
+    <value>TraTienNCC_Xem</value>
+  </data>
+  <data name="strTonKho_Xem" xml:space="preserve">
+    <value>TonKho_Xem</value>
+  </data>
+  <data name="strThuongHieu_Them" xml:space="preserve">
+    <value>ThuongHieu_Them</value>
+  </data>
+  <data name="strThuongHieu_Sua" xml:space="preserve">
+    <value>ThuongHieu_Sua</value>
+  </data>
+  <data name="strThuongHieu_Xoa" xml:space="preserve">
+    <value>ThuongHieu_Xoa</value>
+  </data>
+  <data name="strThuongHieu_Xem" xml:space="preserve">
+    <value>ThuongHieu_Xem</value>
+  </data>
+</root>

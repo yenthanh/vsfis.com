@@ -1,0 +1,62 @@
+div.number_area {
+    float: left;
+    height: 165px !important;
+    overflow: auto;
+    width: 99%;
+}
+
+ol#lode_number li, #lode_result li {
+    float: left;
+    font-size: 1em;
+    height: 14px;
+    margin: 3px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    width: 26px;
+}
+
+ol#lode_number { border: 1px solid #333333; }
+
+ol#lode_number, ol#lode_result {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ol#lode_number li:hover {
+    background-color: #fc2;
+    color: #CC3300;
+    cursor: pointer;
+}
+
+ol#lode_number .ui-selected {
+    background: none repeat scroll 0 0 #F39814;
+    color: white;
+}
+
+ol#lode_number li, #lode_result li {
+    float: left;
+    font-size: 1em;
+    height: 14px;
+    margin: 3px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    width: 26px;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { border-bottom-right-radius: 7px; }
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl { border-bottom-left-radius: 7px; }
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr { border-top-right-radius: 7px; }
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl { border-top-left-radius: 7px; }
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: #fff;
+    border: 1px solid #666666;
+    color: #000;
+    font-weight: bold;
+}

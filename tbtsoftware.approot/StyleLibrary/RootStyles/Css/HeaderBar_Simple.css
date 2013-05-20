@@ -1,0 +1,45 @@
+.searchBox {
+    float: right;
+    height: 50px;
+    margin-left: 20px;
+    overflow: hidden;
+    width: auto;
+}
+
+.searchBox-bg {
+    /*background: url("../Images/HeaderBar_Simple/searchBox.gif") no-repeat scroll 0 0 transparent;*/
+    background: #006EAD;
+    float: left;
+    height: 48px;
+    overflow: hidden;
+    position: relative;
+    width: 459px;
+}
+
+.search-txt {
+    /* border: 0 none;
+    color: #A7A7A7;
+    font-size: 18px;
+    left: 20px;
+    padding: 3px;
+    position: absolute;
+    top: 10px;
+    width: 450px; */
+    border: 1px solid;
+    color: #A7A7A7;
+    font-size: 18px;
+    height: 29px;
+    left: 6px;
+    padding: 3px;
+    position: absolute;
+    top: 6px;
+    width: 308px;
+}
+
+.search-btn {
+    height: 39px;
+    position: absolute;
+    right: 6px;
+    top: 4px;
+    width: 121px;
+}

@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="MinhPham.Web.BepNhaBan.Global" Language="C#" %>

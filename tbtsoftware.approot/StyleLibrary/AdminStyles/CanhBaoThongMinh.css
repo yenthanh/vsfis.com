@@ -1,0 +1,25 @@
+.CanhBaoThongMinh .statistic {
+    background-color: White;
+    border: 1px solid #09C;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px;
+    padding: 15px 13px;
+    position: relative;
+    text-align: left;
+}
+
+.CanhBaoThongMinh .statistic a {
+    border-right: 1px dotted #CACACA;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.CanhBaoThongMinh .statistic .number {
+    background-color: #006497;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 1px 4px;
+    text-align: center;
+}
