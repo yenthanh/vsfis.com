@@ -1,18 +1,16 @@
-﻿namespace MinhPham.Web.BepNhaBan.Class
-{
-    using System;
-    using System.Configuration;
-    using System.Data.SqlClient;
-    using System.IO;
-    using System.Text;
-    using System.Text.RegularExpressions;
-    using System.Web;
-    using System.Web.Security;
+﻿using System;
+using System.Configuration;
+using System.Data.SqlClient;
+using System.IO;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Web;
+using System.Web.Security;
 
+namespace MinhPham.Web.BepNhaBan.Class
+{
     public class Common
     {
-        // Fields
-
         #region Fields
 
         private string str = string.Empty;
@@ -23,10 +21,7 @@
 
         public string GetConnectString
         {
-            get
-            {
-                return new DBHelper().strConn_;
-            }
+            get { return new DBHelper().strConn_; }
         }
 
         #endregion
@@ -37,7 +32,7 @@
         {
             for (int i = 0x20; i < 0x30; i++)
             {
-                text = text.Replace(((char)i).ToString(), " ");
+                text = text.Replace(((char) i).ToString(), " ");
             }
             text = text.Replace(".", "-");
             text = text.Replace(" ", "-");
@@ -49,64 +44,14 @@
             return regex.Replace(input, string.Empty).Replace('đ', 'd').Replace('Đ', 'D');
         }
 
-        public static string DongBoAnhTheoSP(string productNameSEO, string OrderSort, string imageName, string mappath)
+        public static string RequestID(string pStrQuery)
         {
-            string name, oldname, temp, tenmoi;
-            const string tiento = "http://bepnhaban.vn/ProductImages/";
-            const string tiento1 = "ProductImages/";
-            const string hauto = "-bep-nha-ban-267-178.jpg";
-            name = tiento + productNameSEO + OrderSort + hauto;
-            tenmoi = tiento1 + productNameSEO + OrderSort + hauto;
-            temp = imageName;
-            oldname = mappath + temp;
-            tenmoi = mappath + tenmoi;
-            try
+            if (HttpContext.Current.Request.QueryString[pStrQuery] != null)
             {
-                if (oldname.Equals(tenmoi) != true)
-                {
-                    if (File.Exists(oldname))
-                    {
-                        if (File.Exists(tenmoi))
-                        {
-                            File.Delete(tenmoi);
-                        }
-                        File.Move(oldname, tenmoi);
-                    }
-                }
-                return name;
-            }
-            catch
-            {
-                return String.Format("{0}|{1}<br>", oldname, tenmoi);
-            }
-        }
-
-        public static string RequestID(string StrQuery)
-        {
-            if (HttpContext.Current.Request.QueryString[StrQuery] != null)
-            {
-                return HttpContext.Current.Request.QueryString[StrQuery];
+                return HttpContext.Current.Request.QueryString[pStrQuery];
             }
             return "";
         }
-
-        public static string UrlBaoKim(string ProductName, string Price)
-        {
-            string urlBK =
-                "https://www.baokim.vn/payment/customize_payment/product?business=info@bepnhaban.vn&product_name=";
-            urlBK += ProductName + "&product_price=";
-            urlBK += String.Format("{0}000&product_quantity=1&total_amount={0}000", Price);
-            return urlBK;
-        }
-
-        public static string UrlNganLuong(string ProductName, string Price)
-        {
-            string urlNL = "https://www.nganluong.vn/button_payment.php?receiver=info@bepnhaban.vn&product_name=";
-            urlNL += ProductName + "&price=";
-            urlNL += Price + "000&return_url=http://bepnhaban.vn&comments=";
-            return urlNL;
-        }
-
         public string ConvertDateTime(string DT)
         {
             return DateTime.Parse(DT).ToString("dd'/'MM'/'yyyy HH':' mm");
@@ -223,20 +168,20 @@
 
         public string GetHTMLProperties(string key, string tagname, string input)
         {
-            return this.GetHTMLProperties(key, tagname, input, 0);
+            return GetHTMLProperties(key, tagname, input, 0);
         }
 
         public string GetHTMLProperties(string key, string tagname, string input, int index)
         {
-            string str = this.GetHTMLTags(tagname, input)[index];
-            foreach (string str2 in str.Split(new[] { ' ' }))
+            string str = GetHTMLTags(tagname, input)[index];
+            foreach (string str2 in str.Split(new[] {' '}))
             {
                 if (str2.Contains(key + "="))
                 {
                     return
-                        str2.Split(new[] { '=' })[1].Replace(@"\", string.Empty)
-                                                    .Replace("\"", string.Empty)
-                                                    .Replace("'", string.Empty);
+                        str2.Split(new[] {'='})[1].Replace(@"\", string.Empty)
+                                                  .Replace("\"", string.Empty)
+                                                  .Replace("'", string.Empty);
                 }
             }
             return string.Empty;
@@ -244,7 +189,7 @@
 
         public string GetHTMLPropertiesInInput(string key, string input)
         {
-            return this.GetHTMLProperties(key, "input", input);
+            return GetHTMLProperties(key, "input", input);
         }
 
         public string[] GetHTMLTags(string tagname, string input)
@@ -270,11 +215,11 @@
                 if (regex.IsMatch(strSource))
                 {
                     var regex2 = new Regex(@"<img[\w\W]*?src=", RegexOptions.IgnoreCase);
-                    return regex2.Replace(regex.Matches(strSource)[0].Value, "").Trim(new[] { '"', '\'' });
+                    return regex2.Replace(regex.Matches(strSource)[0].Value, "").Trim(new[] {'"', '\''});
                 }
-                if (this.GetHTMLPropertiesInInput("type", strSource).ToLower() == "image")
+                if (GetHTMLPropertiesInInput("type", strSource).ToLower() == "image")
                 {
-                    return this.GetHTMLPropertiesInInput("src", strSource);
+                    return GetHTMLPropertiesInInput("src", strSource);
                 }
                 return string.Empty;
             }
@@ -292,11 +237,11 @@
                 if (regex.IsMatch(strSource))
                 {
                     var regex2 = new Regex(@"<img[\w\W]*?src=", RegexOptions.IgnoreCase);
-                    return regex2.Replace(regex.Matches(strSource)[0].Value, "").Trim(new[] { '"', '\'' });
+                    return regex2.Replace(regex.Matches(strSource)[0].Value, "").Trim(new[] {'"', '\''});
                 }
-                if (this.GetHTMLPropertiesInInput("type", strSource).ToLower() == "image")
+                if (GetHTMLPropertiesInInput("type", strSource).ToLower() == "image")
                 {
-                    return this.GetHTMLPropertiesInInput("src", strSource);
+                    return GetHTMLPropertiesInInput("src", strSource);
                 }
                 return string.Empty;
             }
@@ -413,22 +358,22 @@
         {
             if (isMapPath)
             {
-                this.str = HttpContext.Current.Server.MapPath(ConfigurationManager.AppSettings[Key]);
+                str = HttpContext.Current.Server.MapPath(ConfigurationManager.AppSettings[Key]);
             }
             else
             {
-                this.str = ConfigurationManager.AppSettings[Key];
+                str = ConfigurationManager.AppSettings[Key];
             }
-            return this.str;
+            return str;
         }
 
         public double LamTronTien(double input)
         {
-            if ((input - 8) % 10 == 0)
+            if ((input - 8)%10 == 0)
             {
                 return input;
             }
-            double t0 = Math.Floor(input / 10) * 10 + 8;
+            double t0 = Math.Floor(input/10)*10 + 8;
             return t0;
         }
 
@@ -463,46 +408,46 @@
 
         public string RemoveImageInBrief(string content)
         {
-            content = this.RemoveHTMLTag("img", content);
+            content = RemoveHTMLTag("img", content);
             if (content.Contains("input") && content.Contains("type=\"image\""))
             {
-                content = this.RemoveHTMLTag("input", content);
+                content = RemoveHTMLTag("input", content);
             }
             return content;
         }
 
-        public string RemoveSpeacer(string str)
+        public string RemoveSpeacer(string pStr)
         {
-            if (!string.IsNullOrEmpty(str) && str.Trim().EndsWith(","))
+            if (!string.IsNullOrEmpty(pStr) && pStr.Trim().EndsWith(","))
             {
-                str = str.Substring(0, str.Length - 2);
+                pStr = pStr.Substring(0, pStr.Length - 2);
             }
-            return str;
+            return pStr;
         }
 
-        public string ReplaceTag(string Content)
+        public string ReplaceTag(string pContent)
         {
-            Content = Content.Replace("{", "<");
-            Content = Content.Replace("}", ">");
-            return Content;
+            pContent = pContent.Replace("{", "<");
+            pContent = pContent.Replace("}", ">");
+            return pContent;
         }
 
         public string RequestForm(string StrForm)
         {
             if (HttpContext.Current.Request.Form[StrForm] != null)
             {
-                this.str = this.SafeString(HttpContext.Current.Request.Form[StrForm]);
+                str = SafeString(HttpContext.Current.Request.Form[StrForm]);
             }
             else
             {
-                this.str = "";
+                str = "";
             }
-            return this.str;
+            return str;
         }
 
         public string Right(string source, int pos)
         {
-            string str = "";
+            var str = "";
             if (pos <= source.Length)
             {
                 for (int i = 0; i < pos; i++)
@@ -517,7 +462,7 @@
         {
             if (str != null)
             {
-                var strArray = new[] { "select ", "drop ", ";", "--", "insert ", "delete ", "xp_ ", " or " };
+                var strArray = new[] {"select ", "drop ", ";", "--", "insert ", "delete ", "xp_ ", " or "};
                 for (int i = 0; i < strArray.Length; i++)
                 {
                     str = str.Replace(strArray[i], string.Empty);
@@ -574,6 +519,8 @@
         }
 
         #endregion
+
+        // Fields
 
         // Properties
     }
